@@ -1,0 +1,232 @@
+/* =========================
+   CARRUSEL
+========================= */
+.home-carousel {
+  max-width: 1100px;
+  margin: 7rem auto 2rem; /* más espacio arriba */
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+  position: relative;
+  background: #000;
+}
+
+/* Contenedor de cada slide */
+.carousel-slide {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9; /* altura proporcional */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  transition: transform 0.5s ease;
+}
+
+/* Efecto zoom suave */
+.carousel-slide img:hover {
+  transform: scale(1.03);
+}
+
+/* Dots (bolitas) */
+.slick-dots {
+  bottom: 12px;
+}
+.slick-dots li button:before {
+  font-size: 12px;
+  color: #000; /* ahora en negro */
+  opacity: 0.7;
+}
+.slick-dots li.slick-active button:before {
+  color: #000; /* bolita activa también en negro */
+  opacity: 1;
+}
+
+/* Flechas */
+.slick-prev,
+.slick-next {
+  width: 50px;
+  height: 50px;
+  z-index: 5;
+}
+.slick-prev:before,
+.slick-next:before {
+  font-size: 28px;
+  color: white;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 50%;
+  padding: 10px;
+  transition: 0.3s;
+}
+.slick-prev:hover:before,
+.slick-next:hover:before {
+  background: rgba(0, 0, 0, 0.7);
+}
+.slick-prev {
+  left: 15px;
+}
+.slick-next {
+  right: 15px;
+}
+
+/* =========================
+   BIENVENIDA
+========================= */
+.home-welcome {
+  padding-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 2rem;
+  gap: 2rem;
+
+  /* ✅ Imagen de fondo remota */
+  background-image: url("https://adipa.cl/content/uploads/2023/12/juridica-noticias.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* Opcional: overlay claro con transparencia si el fondo es muy cargado */
+  background-color: rgba(255, 255, 255, 0.6);
+  background-blend-mode: lighten;
+
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  margin: 2rem auto;
+}
+
+/* CONTENIDO DE TEXTO */
+
+.welcome-text {
+  max-width: 600px;
+  background-color: rgba(255, 255, 255, 0.85); /* Fondo semitransparente para legibilidad */
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.welcome-text h2 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #4a3bff;
+}
+
+.welcome-text span {
+  color: #16f9d3;
+}
+
+.welcome-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* IMAGEN LOGO */
+
+.welcome-logo img {
+  width: 220px;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.welcome-logo img:hover {
+  transform: scale(1.05);
+}
+
+/* =========================
+   BENEFICIOS DESPLEGABLES
+========================= */
+.section-head {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #4a3bff;
+}
+.section-subtitle {
+  color: #666;
+  font-size: 1.1rem;
+}
+
+.accordion details {
+  margin-bottom: 1rem;
+  padding: 1rem 1.25rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+.accordion details:hover {
+  border-color: #6c63ff;
+  background: #f9f9ff;
+  transform: translateY(-2px);
+}
+.accordion summary {
+  font-weight: bold;
+  font-size: 1.1rem;
+  cursor: pointer;
+  list-style: none;
+  color: #333;
+}
+.accordion summary::marker {
+  display: none;
+}
+.accordion p {
+  margin-top: 0.5rem;
+  color: #555;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Animación de apertura */
+.accordion details[open] {
+  animation: expand 0.3s ease-in-out;
+}
+@keyframes expand {
+  from {
+    opacity: 0;
+    transform: scaleY(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scaleY(1);
+  }
+}
+
+/* =========================
+   CTA FINAL
+========================= */
+.home-cta {
+  text-align: center;
+  padding: 3rem 1.5rem;
+  margin-top: 2rem;
+  font-weight: bold;
+  color: white;
+  column-count: 2;
+  column-gap: 2rem;
+  line-height: 1.6;
+  background: linear-gradient(90deg, #6c63ff, #4a3bff);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+.home-cta__wrap h3 {
+  font-size: 1.9rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+.home-cta__wrap p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}

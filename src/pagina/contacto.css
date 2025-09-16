@@ -1,0 +1,96 @@
+/* contacto.css */
+
+.team-container {
+  font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
+  background-color: #f9fafb;
+  min-height: 100vh;
+  color: #374151;
+}
+
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.primary-btn {
+  background: #8DB9E4;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  outline: 2px dotted black;
+  outline-offset: 2px;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+}
+
+.primary-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+}
+
+.team-section {
+  background: white;
+  padding: 2rem;
+  border-radius: 1.25rem;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  margin-top: 2rem;
+}
+
+.section-header {
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.section-title {
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: #374151;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.map-iframe {
+  border: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  aspect-ratio: 16 / 10;
+  margin-bottom: 2rem;
+}
+
+.contact-list {
+  color: #6b7280;
+  font-size: 1rem;
+  line-height: 1.6;
+  list-style: none;
+  padding-left: 0;
+}
+
+.contact-list li {
+  margin-bottom: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.contact-icon {
+  color: #7c3aed;
+  width: 1.25rem;
+  height: 1.25rem;
+  flex-shrink: 0;
+  font-size: 1.25rem;
+}
