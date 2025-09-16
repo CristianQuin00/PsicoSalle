@@ -1,9 +1,7 @@
-/* =========================
-   CARRUSEL
-========================= */
+
 .home-carousel {
   max-width: 1100px;
-  margin: 7rem auto 2rem; /* más espacio arriba */
+  margin: 7rem auto 2rem; 
   border-radius: 20px;
   overflow: hidden;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
@@ -11,11 +9,10 @@
   background: #000;
 }
 
-/* Contenedor de cada slide */
 .carousel-slide {
   position: relative;
   width: 100%;
-  aspect-ratio: 16 / 9; /* altura proporcional */
+  aspect-ratio: 16 / 9; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,26 +27,22 @@
   transition: transform 0.5s ease;
 }
 
-/* Efecto zoom suave */
-.carousel-slide img:hover {
-  transform: scale(1.03);
-}
 
-/* Dots (bolitas) */
+
 .slick-dots {
   bottom: 12px;
 }
 .slick-dots li button:before {
   font-size: 12px;
-  color: #000; /* ahora en negro */
+  color: #000; 
   opacity: 0.7;
 }
 .slick-dots li.slick-active button:before {
-  color: #000; /* bolita activa también en negro */
+  color: #000; 
   opacity: 1;
 }
 
-/* Flechas */
+
 .slick-prev,
 .slick-next {
   width: 50px;
@@ -76,9 +69,7 @@
   right: 15px;
 }
 
-/* =========================
-   BIENVENIDA
-========================= */
+
 .home-welcome {
   padding-top: 80px;
   display: flex;
@@ -86,14 +77,12 @@
   justify-content: space-between;
   padding: 4rem 2rem;
   gap: 2rem;
-
-  /* ✅ Imagen de fondo remota */
+  
   background-image: url("https://adipa.cl/content/uploads/2023/12/juridica-noticias.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 
-  /* Opcional: overlay claro con transparencia si el fondo es muy cargado */
   background-color: rgba(255, 255, 255, 0.6);
   background-blend-mode: lighten;
 
@@ -102,7 +91,7 @@
   margin: 2rem auto;
 }
 
-/* CONTENIDO DE TEXTO */
+
 
 .welcome-text {
   max-width: 600px;
@@ -128,7 +117,6 @@
   color: #333;
 }
 
-/* IMAGEN LOGO */
 
 .welcome-logo img {
   width: 220px;
@@ -142,9 +130,7 @@
   transform: scale(1.05);
 }
 
-/* =========================
-   BENEFICIOS DESPLEGABLES
-========================= */
+
 .section-head {
   text-align: center;
   margin-bottom: 2rem;
@@ -190,7 +176,6 @@
   line-height: 1.5;
 }
 
-/* Animación de apertura */
 .accordion details[open] {
   animation: expand 0.3s ease-in-out;
 }
@@ -205,9 +190,7 @@
   }
 }
 
-/* =========================
-   CTA FINAL
-========================= */
+
 .home-cta {
   text-align: center;
   padding: 3rem 1.5rem;

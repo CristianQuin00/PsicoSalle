@@ -4,7 +4,7 @@ import Slider from 'react-slick';
 import './inicio.css';
 import Navbar from '../componentes/navbar';
 import Piedepagina from '../componentes/piedepagina';
-import { Link } from 'react-router-dom';
+
 
 export default function Inicio() {
     const settings = {
@@ -22,9 +22,7 @@ export default function Inicio() {
         <div className="home">
             <Navbar />
 
-            {/* =========================
-          BIENVENIDA
-      ========================= */}
+          
             <section className="home-welcome full-width">
                 <div className="welcome-text">
                     <h2>
@@ -38,10 +36,7 @@ export default function Inicio() {
                     </p>
                 </div>
                 <div className="welcome-logo">
-                    <img
-                        src="https://psicologiasallecampoamor.weebly.com/uploads/1/5/1/3/151339301/published/images.jfif?1730833679"
-                        alt="Logo PsicologiaSalle"
-                    />
+                    <img src="/Logo.png" alt="Logo" />
                 </div>
             </section>
 
@@ -77,7 +72,7 @@ export default function Inicio() {
                 </Slider>
             </section>
 
-            
+
 
             {/* =========================
           BENEFICIOS (DESPLEGABLES)
