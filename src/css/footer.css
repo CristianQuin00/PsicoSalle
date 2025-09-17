@@ -23,6 +23,9 @@
   margin-bottom: 1rem;
 }
 
+.logo-text{
+  color:white;
+}
 .footer-description {
   color: #9ca3af;
   line-height: 1.6;

@@ -11,7 +11,7 @@ function Piedepagina() {
 
               <div className="logo-icon"><img src="Logo.png" class="logo-icon" alt="Logo" /> </div>
 
-              <span className="logo-text">MenteSana</span>
+              <span className="logo-text">Psicologia Salle</span>
             </div>
             <p className="footer-description">
               Centro de psicología integral dedicado al bienestar mental y emocional de nuestros pacientes.

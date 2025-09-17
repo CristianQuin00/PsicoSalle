@@ -200,7 +200,7 @@
   column-count: 2;
   column-gap: 2rem;
   line-height: 1.6;
-  background: linear-gradient(90deg, #6c63ff, #4a3bff);
+  background: #8DB9E4;
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
 }
 .home-cta__wrap h3 {
