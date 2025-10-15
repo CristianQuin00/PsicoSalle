@@ -47,7 +47,7 @@ function Service() {
               <p>{item.descripcion}</p>
               <div className="d-flex justify-content-center">
                 <Link className="btn btn-primary" to={item.uri} role="button">
-                  Link
+                  Conoce mas
                 </Link>
               </div>
             </div>

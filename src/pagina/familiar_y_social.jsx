@@ -4,7 +4,7 @@ import Piedepagina from '../componentes/piedepagina.jsx';
 import Navbar from '../componentes/navbar.jsx';
 import Boton from '../componentes/boton.jsx';
 
-function Tests() {
+function FyS() {
   return (
     <div>
       <div className="hero-section">
@@ -34,15 +34,7 @@ function Tests() {
         </div>
       </section>
 
-      <div className="info-text2">
-        <div className="info-title">¿Qué es?</div>
-        <p>
-          El acompañamiento familiar y social es un proceso de apoyo y orientación psicológica que busca fortalecer los vínculos en el hogar y en la comunidad. Se centra en fomentar la comunicación efectiva, el respeto mutuo y la resolución saludable de conflictos.
-        </p>
-        <p>
-          Además, brinda herramientas para afrontar los desafíos cotidianos, mejorar la convivencia y construir relaciones más sólidas y armónicas que impacten positivamente en el bienestar individual y colectivo.
-        </p>
-      </div>
+      
 
       <div className="info-text2">
         <div className="info-title">¿Por qué es importante?</div>
@@ -56,19 +48,12 @@ function Tests() {
         <div className="info-title">¿A quién está dirigido?</div>
         <p>
           Este espacio está pensado para familias, cuidadores, docentes, líderes comunitarios y cualquier persona interesada en fortalecer sus relaciones interpersonales y el bienestar en su entorno social.
-        </p>
-      </div>
-
-      <div className="info-text2">
-        <div className="info-title">Beneficios principales</div>
-        <ul>
           <li>Fortalece los lazos familiares y sociales.</li>
           <li>Mejora la comunicación y la convivencia.</li>
           <li>Promueve el apoyo mutuo y la empatía.</li>
-          <li>Previene y gestiona conflictos de manera saludable.</li>
-          <li>Favorece el bienestar emocional y la resiliencia.</li>
-        </ul>
+        </p>
       </div>
+
 
       <section
         className="Imagen"
@@ -101,4 +86,4 @@ function Tests() {
   );
 }
 
-export default Tests;
+export default FyS;

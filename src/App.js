@@ -6,8 +6,10 @@ import Equipo from './pagina/equipo';
 import Conferencias from './pagina/conferencias';
 import Contacto from './pagina/contacto';
 import Services from './pagina/servicios';
-import Psico2 from './pagina/Psicologia2';
-import Psico3 from './pagina/Psicologia3';
+import Psico2 from './pagina/infantil';
+import Psico3 from './pagina/organizacional';
+import FyS from './pagina/familiar_y_social';
+import PyR from './pagina/prevencion_y_recuersos_prof';
 
 
 
@@ -23,8 +25,10 @@ function App() {
           <Route path='/PsicologiaClinica' element={<Tests />}>  </Route>
           <Route path='/contacto' element={<Contacto />}>  </Route>
           <Route path='/Servicios' element={<Services />}>  </Route>
-          <Route path='/PsicologiaInfantil' element={<Psico2 />}>  </Route>
+          <Route path='/infantil' element={<Psico2 />}>  </Route>
           <Route path='/PsicologiaOrganizacional' element={<Psico3 />}>  </Route>
+          <Route path='/FamiliarySocial' element={<FyS />}>  </Route>
+          <Route path='/Prevencion' element={<PyR />}> </Route>
 
         </Routes>
       </Router>

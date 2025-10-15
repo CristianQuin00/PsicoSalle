@@ -75,7 +75,7 @@ const Conferencias = () => {
                     }}
                   />
                 </div>
-                <li><a href= "localhost:3000/" className="card-title"> Acompañamiento Familiar y Social</a> </li>
+                <li><Link to= "/FamiliarySocial" className="card-title"> Acompañamiento Familiar y Social</Link> </li>
                 <div className="specialty">Presencial</div>
                 <p className="card-description">
                   <li>Cómo apoyar a un ser querido en crisis</li>
@@ -103,7 +103,7 @@ const Conferencias = () => {
                     }}
                   />
                 </div>
-                <li><a href= "localhost:3000/"className="card-title" >Prevención y Recursos Profesionales</a> </li>
+                <li><Link to= "/Prevencion" className="card-title"> Prevencion y Recursos Profesionales </Link> </li>
                 <div className="specialty">Presencial</div>
                 <p className="card-description">
                   <li>Herramientas de afrontamiento emocional</li>
