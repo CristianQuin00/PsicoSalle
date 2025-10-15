@@ -47,7 +47,7 @@ const Conferencias = () => {
                     }}
                   />
                 </div>
-                <h3 className="card-title">Conciencia y Educación</h3>
+                <li> <a href= "localhost:3000/" className="card-title">Conciencia y Educación </a> </li>
                 <div className="specialty">Presencial</div>
                 <p className="card-description">
                   <li>Rompiendo mitos sobre el suicidio</li>
@@ -75,7 +75,7 @@ const Conferencias = () => {
                     }}
                   />
                 </div>
-                <h3 className="card-title">Acompañamiento Familiar y Social</h3>
+                <li><a href= "localhost:3000/" className="card-title"> Acompañamiento Familiar y Social</a> </li>
                 <div className="specialty">Presencial</div>
                 <p className="card-description">
                   <li>Cómo apoyar a un ser querido en crisis</li>
@@ -103,7 +103,7 @@ const Conferencias = () => {
                     }}
                   />
                 </div>
-                <h3 className="card-title">Prevención y Recursos Profesionales</h3>
+                <li><a href= "localhost:3000/"className="card-title" >Prevención y Recursos Profesionales</a> </li>
                 <div className="specialty">Presencial</div>
                 <p className="card-description">
                   <li>Herramientas de afrontamiento emocional</li>

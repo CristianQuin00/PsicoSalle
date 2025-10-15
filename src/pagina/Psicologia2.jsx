@@ -4,13 +4,13 @@ import Piedepagina from '../componentes/piedepagina.jsx';
 import Navbar from '../componentes/navbar.jsx';
 import Boton from '../componentes/boton.jsx';
 
-function Tests() {
+function Psico2() {
   return (
     <div>
       <div className="hero-section">
         <div className="container">
           <div className="hero-content">
-            <h1 className="hero-title">Psicologia Clinica</h1>
+            <h1 className="hero-title">Psicologia Infantil</h1>
           </div>
         </div>
       </div>
@@ -21,28 +21,28 @@ function Tests() {
         >
           <div className="info-image" style={{ flex: 1 }}>
             <img
-              src="https://www.emagister.com/blog/wp-content/uploads/2022/02/GettyImages-1308910334.jpg"
-              alt="Psicología Clínica"
+              src="https://universidadeuropea.com/resources/media/images/funciones-psicologo-infantil-800x450.original.jpg"
+              alt="Psicología Infantil"
               style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
             />
           </div>
           <div className="info-text" style={{ flex: 1 }}>
            
             <p>
-              En nuestra empresa, entendemos que la salud mental es tan importante como la salud física. Por eso, ofrecemos servicios especializados de Psicología Clínica, orientados a brindar apoyo emocional, diagnóstico, prevención y tratamiento de diversas problemáticas psicológicas que afectan el bienestar de las personas.
+             En nuestro servicio de psicología infantil, ofrecemos atención especializada para niños y niñas que enfrentan desafíos emocionales, conductuales o del desarrollo. Sabemos que la infancia es una etapa clave para construir bases sólidas en la salud mental
             </p>
           </div>
         </div>
         </section>
         <div className="info-text2">
-          <div className="info-title">¿Que es?</div>
-          <p>La psicología clínica es una rama de la psicología que se encarga del estudio, diagnóstico, tratamiento y prevención de los trastornos mentales, emocionales y del comportamiento</p>
+          <div className="info-title">¿Como lo hacemos?</div>
+          <p>Creamos un espacio seguro, de confianza y juego, donde los más pequeños pueden expresarse libremente, y donde los padres reciben orientación para acompañarlos de manera respetuosa y efectiva. Ya sea que se trate de dificultades escolares, problemas de conducta, ansiedad, miedos, duelos o cambios importantes en la vida familiar, nuestro equipo está comprometido con el cuidado integral del niño.</p>
 
-          <p>Su objetivo principal es mejorar el bienestar psicológico de las personas, ayudándolas a comprender y resolver los conflictos internos o externos que afectan su vida cotidiana.</p>
+         
         </div>
         <section className="Imagen"
           style={{
-          backgroundImage: `url('https://www.psonrie.com/files/noticias/que-es-la-psicologia-clinica-grande.jpg')`,
+          backgroundImage: `url('https://www.caser.es/documents/473773/15931744/1683100285082_psicologia-infaltil.jpg')`,
           backgroundSize: 'cover',
           
           backgroundPosition: 'center',
@@ -57,8 +57,8 @@ function Tests() {
           
         }}>
          <div className="info-text3">
-          <div className="info-title">Un espacio seguro para tu bienestar</div>
-          <p>Ofrecemos atención presencial y en línea, adaptándonos a las necesidades de cada persona. Nuestro objetivo es crear un espacio seguro, de escucha y acompañamiento, donde cada individuo pueda trabajar en su bienestar emocional y construir una vida más plena.</p>
+          <div className="info-title">Su bienestar comienza con una cita</div>
+          <p>Estamos listos para acompañarte en tu proceso. Agenda tu cita de forma fácil y rápida, ya sea presencial o en línea. Da el primer paso hacia una vida con mayor equilibrio y bienestar emocional.</p>
           <Boton/>
           
         </div>
@@ -70,4 +70,4 @@ function Tests() {
   );
 }
 
-export default Tests;
+export default Psico2;

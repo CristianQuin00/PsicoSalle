@@ -2,7 +2,6 @@ import React from 'react';
 import '../css/prueba.css';
 import Piedepagina from '../componentes/piedepagina.jsx';
 import Navbar from '../componentes/navbar.jsx';
-import Boton from '../componentes/boton.jsx';
 
 function Tests() {
   return (
@@ -59,7 +58,7 @@ function Tests() {
          <div className="info-text3">
           <div className="info-title">Un espacio seguro para tu bienestar</div>
           <p>Ofrecemos atención presencial y en línea, adaptándonos a las necesidades de cada persona. Nuestro objetivo es crear un espacio seguro, de escucha y acompañamiento, donde cada individuo pueda trabajar en su bienestar emocional y construir una vida más plena.</p>
-          <Boton/>
+
           
         </div>
       </section>
