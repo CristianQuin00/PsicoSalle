@@ -10,7 +10,7 @@ import Psico2 from './pagina/infantil';
 import Psico3 from './pagina/organizacional';
 import FyS from './pagina/familiar_y_social';
 import PyR from './pagina/prevencion_y_recuersos_prof';
-
+import ConEdu from './pagina/conciencia_y_educacion';
 
 
 function App() {
@@ -29,6 +29,7 @@ function App() {
           <Route path='/PsicologiaOrganizacional' element={<Psico3 />}>  </Route>
           <Route path='/FamiliarySocial' element={<FyS />}>  </Route>
           <Route path='/Prevencion' element={<PyR />}> </Route>
+          <Route path='/conciencia_y_educacion' element={<ConEdu />}> </Route>
 
         </Routes>
       </Router>

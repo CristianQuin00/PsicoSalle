@@ -47,7 +47,7 @@ const Conferencias = () => {
                     }}
                   />
                 </div>
-                <li> <a href= "localhost:3000/" className="card-title">Conciencia y Educación </a> </li>
+                <li><Link to= "/Prevencion" className="card-title"> Conciencia y educaciona </Link> </li>
                 <div className="specialty">Presencial</div>
                 <p className="card-description">
                   <li>Rompiendo mitos sobre el suicidio</li>

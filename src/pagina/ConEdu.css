@@ -1,0 +1,146 @@
+/* Fondo y estilo hero / encabezado */
+.encabezado {
+  background: #8DB9E4;
+  color: white;
+  padding: 5rem 0;
+  text-align: center;
+  margin-top: 90px;
+}
+
+.encabezado h1 {
+  max-width: 48rem;
+  margin: 0 auto 1.5rem auto;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .encabezado h1 {
+    font-size: 3.75rem;
+  }
+}
+
+.encabezado p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+
+@media (min-width: 768px) {
+  .encabezado p {
+    font-size: 1.5rem;
+  }
+}
+
+/* Divisor tipo línea */
+.hero-divider {
+  width: 6rem;
+  height: 1px;
+  margin: 0 auto 3rem auto;
+  background-color: white;
+}
+
+/* Texto descriptivo */
+.introduccion p {
+  font-size: 1.125rem;
+  opacity: 0.8;
+  line-height: 1.6;
+  max-width: 720px;
+  margin: 0 auto 2rem auto;
+}
+
+/* Títulos de secciones */
+.temas h2,
+.ponentes h2,
+.convocatoria h2,
+.introduccion h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+/* Listado de temas */
+.temas ul {
+  max-width: 720px;
+  margin: 0 auto 3rem auto;
+  font-size: 25px;
+  padding-left: 1.5rem;
+}
+
+.temas ul li {
+  margin-bottom: 1rem;
+  Color: rgb(89, 158, 223);
+}
+
+.temas table {
+  width: 90%%;
+  border-collapse: separate;
+  margin-top: 20px;
+  border: none;
+}
+
+.temas td {
+  padding: 20px;
+  vertical-align: top;
+  text-align: left;
+  background-color: #f5f8fa;
+  vertical-align: top;
+}
+
+.temas h3 {
+  font-size: 1.2em;
+  color: #8ABEEB;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+
+.temas p {
+  font-size: 1em;
+  line-height: 1.6;
+  color: #555;
+}
+
+
+/* Texto de convocatoria */
+.convocatoria p {
+  font-size: 24px;
+  opacity: 0.7;
+  padding: 2rem 4rem;
+  background-color: rgb(205, 220, 235);
+  text-align: center;
+
+}
+
+/* Padding general para secciones */
+.pagina-conferencia section {
+  padding: 4rem 1rem;
+}
+
+/* Botón de contacto (CTA) */
+.btn-contacto {
+  display: inline-block;
+  padding: 0.75rem 2rem;
+  border-radius: 9999px;
+  font-weight: 600;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  background: rgb(30, 52, 177);
+  color: #ffffff;
+  transition: all 0.3s ease;
+  margin: 0 auto;
+  display: block;
+  max-width: 180px;
+  text-align: center;
+}
+
+/* Responsive ajustes para lista y texto */
+@media (min-width: 640px) {
+  .temas ul {
+    padding-left: 3rem;
+  }
+}

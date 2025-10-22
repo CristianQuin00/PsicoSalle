@@ -14,21 +14,32 @@ function Navbar() {
       </div>
 
       <div className="navbar-links">
-        <Link to="/conferencias" className="navbar-link">Conferencias</Link>
-        <Link to="/servicios" className="navbar-link">Servicios</Link>
         <div className="navbar-link nav-item dropdown">
-          <Link to="/" className="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="true">
+        <Link to="/conferencias" className="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="true"> 
+            Conferencias
+          </Link>
+        <ul className="dropdown-menu">
+            <li><Link to="/FamiliarySocial" className="dropdown-item">Familiar y social</Link></li>
+            <li><Link to="/conciencia_y_educacion" className="dropdown-item">Conciencia y educacion</Link></li>
+            <li><Link to="/Prevencion" className="dropdown-item">Prevencion y recursos</Link></li>
+            <li><Link to="/conferencias" className="dropdown-item">Conferencias</Link></li>
+          </ul>
+        </div>  
+        <div className="navbar-link nav-item dropdown">
+          <Link to="/servicios" className="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="true"> 
             Servicios
           </Link>
           <ul className="dropdown-menu">
             <li><Link to="/infantil" className="dropdown-item">Infantil</Link></li>
-            <li><Link to="/conferencias" className="dropdown-item">Conferencias</Link></li>
+            <li><Link to="/PsicologiaClinica" className="dropdown-item">Clínica</Link></li>
+            <li><Link to="/PsicologiaOrganizacional" className="dropdown-item">organizacional</Link></li>
             <li><Link to="/servicios" className="dropdown-item">servicios</Link></li>
           </ul>
         </div>
         <Link to="/equipo" className="navbar-link">Equipo</Link>
         <Link to="/contacto" className="navbar-link">Contacto</Link>
       </div>
+      
     </nav>
   );
 }
