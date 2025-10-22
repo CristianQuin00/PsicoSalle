@@ -21,7 +21,7 @@ function Piedepagina() {
           <div className="footer-col">
             <h3 className="footer-title">Enlaces Rápidos</h3>
             <ul className="footer-links">
-              <li><a href="#" className="footer-link">Inicio</a></li>
+              <li><a href="/" className="footer-link">Inicio</a></li>
               <li><a href="http://localhost:3000/contacto" className="footer-link">Contacto</a></li>
               <li><a href="http://localhost:3000/equipo" className="footer-link">Nuestro Equipo</a></li>
               <li><a href="http://localhost:3000/conferencias" className="footer-link">Conferencias</a></li>
